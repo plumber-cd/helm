@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   dynamic-pvc-provisioner:
   - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2022-12-12T01:10:04.972915173Z"
+    description: A Helm chart for Kubernetes
+    digest: 841aec29bc15e5096cf5960fd834f16327d4d52c863dd6f54caee0eff83c9bc6
+    name: dynamic-pvc-provisioner
+    type: application
+    urls:
+    - https://github.com/plumber-cd/helm/releases/download/dynamic-pvc-provisioner-0.0.3/dynamic-pvc-provisioner-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
     appVersion: 0.0.4
     created: "2021-06-21T22:14:17.944819767Z"
     description: A Helm chart for Kubernetes
@@ -23,6 +33,16 @@ entries:
     version: 0.0.1
   reclaimable-pv-releaser:
   - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2022-12-12T01:10:05.146679323Z"
+    description: A Helm chart for Kubernetes
+    digest: b8d9916713fe0de3cfdb06037e67f88316269fdcd1b3cffa2ad306b2a6fb405f
+    name: reclaimable-pv-releaser
+    type: application
+    urls:
+    - https://github.com/plumber-cd/helm/releases/download/reclaimable-pv-releaser-0.0.3/reclaimable-pv-releaser-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
     appVersion: 0.0.4
     created: "2021-06-21T22:14:18.143898304Z"
     description: A Helm chart for Kubernetes
@@ -42,4 +62,4 @@ entries:
     urls:
     - https://github.com/plumber-cd/helm/releases/download/reclaimable-pv-releaser-0.0.1/reclaimable-pv-releaser-0.0.1.tgz
     version: 0.0.1
-generated: "2021-06-21T22:14:18.143910005Z"
+generated: "2022-12-12T01:10:05.146694124Z"
